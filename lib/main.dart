@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:marketeur_follow_me/Panier2.dart';
+import 'package:marketeur_follow_me/Panier3.dart';
 import 'package:marketeur_follow_me/authentification/inscription.dart';
 import 'package:marketeur_follow_me/panier.dart';
 import 'package:marketeur_follow_me/navigation_pages/premiere_page.dart';
@@ -21,15 +23,17 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(),
       debugShowCheckedModeBanner: false,
-      initialRoute: Panier.id,
+      initialRoute: Panier3.id,
       routes: {
         FirstPage.id: (context) => FirstPage(),
         Connexion.id: (context) => Connexion(),
         Inscription.id: (context) => Inscription(),
         Allnavigation_pages.id: (context) => Allnavigation_pages(),
         Test.id:(context) => Test(),
-        UserProfil.id:(context) => UserProfil(),
-        Panier.id:(context) => Panier(),
+        //UserProfil.id:(context) => UserProfil(),
+        //Panier.id:(context) => Panier(),
+        //Panier2.id:(context) => Panier2(),
+        Panier3.id:(context) => Panier3(),
       },
     );
 
